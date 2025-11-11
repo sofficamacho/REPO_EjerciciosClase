@@ -1,0 +1,59 @@
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    background-color: cornflowerblue;
+}
+
+#nav li{
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+#nav li:hover{
+    background-color:gray;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+/* ----------- Modelo de Caja --------- */
+.padre{
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.hijo{
+    background-color: honeydew;
+    padding: 100px;
+    border: 10px solid crimson;
+    margin: 25px;
+}
+
+/* ----------- Componentes ---------- */
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: khaki;
+}
+.card{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+    
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card p{
+    color: bisque;
+    background-color: black;
+}
